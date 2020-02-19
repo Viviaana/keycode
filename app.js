@@ -13,7 +13,7 @@ const code = document.getElementById("code");
 const which = document.getElementById("which");
 
 body.addEventListener("keydown", event =>{
-    key.textContent = event.key;
+    key.innerHTML = event.key;
 });
 
 body.addEventListener("keydown", event => {
